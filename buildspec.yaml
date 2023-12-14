@@ -3,4 +3,4 @@ version: 0.2
 phases:
   build:
     commands:
-      - aws s3 sync . s3://your-s3-bucket-name/
+      - aws s3 sync . s3://bucketforcodebuild/
